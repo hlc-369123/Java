@@ -1,0 +1,12 @@
+/*
+获取某个数到某个数区间的值
+[a,b]
+value = (int)(Math.random() * (b - a + 1) + a);
+*/
+
+class GetRandonNum{
+  public static void main(String[] args) {
+      int value = (int)(Math.random() * (9000 - 1000 + 1) + 1000);
+      System.out.println(value);
+  }
+}

@@ -1,0 +1,19 @@
+/*
+如何从键盘获取不同类型的变量：需要使用Scanner类
+
+具体实现步骤：
+1、导包：
+2、Scanner的实例化：
+3、调用Scanner类的相关方法，来获取指定类型的变量
+
+*/
+import java.util.Scanner;
+
+class ScannerTest {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("请输入数字：");
+    int num = scan.nextInt();
+    System.out.println("输入的数字是 ：" + num);
+  }
+}
